@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("back.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7ff;
+  color: #222;
+  transition: 0.3s;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#darkToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  margin: 10px 0;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+.buttons a {
+  margin: 10px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  background: #4f46e5;
+  color: white;
+}
+
+.buttons .outline {
+  background: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+}
+
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #4f46e5;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+body.dark .card {
+  background: #1e293b;
+}
+
+.skills {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.skills li {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+body.dark .skills li {
+  background: #1e293b;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.7;
+}
